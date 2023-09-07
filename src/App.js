@@ -13,7 +13,7 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Register from "./pages/register";
 //socket io
-const socket = io(process.env.REACT_APP_API_ENDPOINT.split("/api/v1")[0]);
+const socket = io(process.env.REACT_APP_API_ENDPOINT?.split("/api/v1")[0]);
 
 function App() {
   //const [connected, setConnected] = useState(false);
