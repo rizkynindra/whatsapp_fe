@@ -10,7 +10,7 @@ export default function SidebarHeader() {
   return (
     <>
       {/*Sidebar header*/}
-      <div className="h-[50px] bg-green-900 flex items-center p16">
+      <div className="h-[50px] bg-blue-500 flex items-center p16">
         {/* container */}
         <div className="w-full flex items-center justify-between">
           {/*user image*/}
