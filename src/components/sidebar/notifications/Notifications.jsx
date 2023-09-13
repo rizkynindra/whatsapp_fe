@@ -2,7 +2,7 @@ import { ArrowIcon, CloseIcon, NotificationIcon } from "../../../svg";
 
 export default function Notifications() {
   return (
-    <div className="h-[90px] dark:bg-dark_bg_3 flex items-center p-[13px]">
+    <div className="h-[90px] bg-neutral-800 flex items-center p-[13px]">
       {/*container*/}
       <div className="w-full flex items-center justify-between">
         {/*Left */}
