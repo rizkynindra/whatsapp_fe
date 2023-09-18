@@ -6,10 +6,10 @@ export default function WhatsappHome() {
       {/*Container*/}
       <div className="-mt-1.5 w-full h-full flex flex-col gap-y-8 items-center justify-center">
         <span>
-          <Logo />
+          {/* <Logo /> */}
         </span>
         {/*Infos*/}
-        <div className="mt-1 text-center space-y-[12px]">
+        {/* <div className="mt-1 text-center space-y-[12px]">
           <h1 className="text-[32px] dark:text-dark_text_4 font-extralight">
             Whatsapp Web
           </h1>
@@ -18,7 +18,7 @@ export default function WhatsappHome() {
             <br />
             Use Whatsapp on up to 4 linked devices and 1 phone at the same time.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
