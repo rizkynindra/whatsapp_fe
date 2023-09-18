@@ -67,7 +67,7 @@ function ChatHeader({ online, callUser, socket }) {
               </button>
             </li>
           ) : null}
-          <li>
+          {/* <li>
             <button className="btn">
               <SearchLargeIcon className="dark:fill-dark_svg_1" />
             </button>
@@ -76,7 +76,7 @@ function ChatHeader({ online, callUser, socket }) {
             <button className="btn">
               <DotsIcon className="dark:fill-dark_svg_1" />
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
