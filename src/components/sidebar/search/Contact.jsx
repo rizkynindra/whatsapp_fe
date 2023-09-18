@@ -8,7 +8,7 @@ function Contact({ contact, setSearchResults, socket }) {
   const { token } = user;
   const values = {
     receiver_id: contact._id,
-    token,
+    token, 
   };
   const openConversation = async () => {
     let newConvo = await dispatch(open_create_conversation(values));
